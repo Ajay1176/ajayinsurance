@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ajay1176.github.io/ajayinsurance/sitemap.xml

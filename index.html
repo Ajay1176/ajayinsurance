@@ -55,6 +55,34 @@ text-align:center;
 padding:15px;
 margin-top:30px;
 }
+  .quote-section{
+background:white;
+max-width:500px;
+margin:30px auto;
+padding:25px;
+border-radius:10px;
+box-shadow:0 2px 10px rgba(0,0,0,.1);
+text-align:center;
+}
+
+.quote-section input,
+.quote-section select,
+.quote-section textarea{
+width:90%;
+padding:12px;
+margin:8px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+.quote-section button{
+background:#0a4da2;
+color:white;
+padding:12px 25px;
+border:none;
+border-radius:5px;
+font-size:16px;
+}
 </style>
 
 </head>
@@ -99,7 +127,36 @@ margin-top:30px;
 </div>
 
 </div>
+<div class="quote-section">
 
+<h2>Get Your Free Insurance Quote</h2>
+<p>Apni details bhejiye, hum aapse contact karenge.</p>
+
+<form action="https://formsubmit.co/ajayhembram104@gmail.com" method="POST">
+
+<input type="hidden" name="_subject" value="New Insurance Enquiry">
+
+<input type="text" name="Name" placeholder="Your Name" required>
+
+<input type="tel" name="Mobile" placeholder="Mobile Number" required>
+
+<input type="email" name="Email" placeholder="Email Address">
+
+<select name="Insurance Type" required>
+<option value="">Select Insurance</option>
+<option>Life Insurance</option>
+<option>Health Insurance</option>
+<option>Motor Insurance</option>
+<option>Term Insurance</option>
+</select>
+
+<textarea name="Message" placeholder="Your Requirement"></textarea>
+
+<button type="submit">Send Enquiry</button>
+
+</form>
+
+</div>
 <footer>
 © 2026 Ajay Hembram Insurance Advisor<br>
 Mobile: 9304211176
